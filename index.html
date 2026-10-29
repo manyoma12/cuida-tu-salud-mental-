@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DIETÓ: aprende a cuidar tu salud mental con consejos, actividades y hábitos saludables.">
+  <title>DIETÓ | Cuida tu salud mental</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#inicio" class="logo">🌿 DIETÓ</a>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#consejos">Consejos</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#ayuda">Busca ayuda</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-text">
+        <span class="etiqueta">💚 TU BIENESTAR IMPORTA</span>
+        <h1>Cuida tu mente,<br><span>cuida tu vida.</span></h1>
+        <p>Tu salud mental también necesita atención. Aprende a escucharte, descansar y construir hábitos que te ayuden a sentirte mejor.</p>
+        <a href="#consejos" class="boton">Descubre cómo cuidarte ✨</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=900&q=85" alt="Paisaje natural tranquilo">
+      </div>
+    </section>
+
+    <section class="seccion" id="consejos">
+      <h2>🌈 Alimenta tu bienestar</h2>
+      <p class="subtitulo">Pequeños hábitos pueden hacer una gran diferencia.</p>
+
+      <div class="tarjetas">
+        <article class="tarjeta verde">
+          <div class="icono">😴</div>
+          <h3>Descansa bien</h3>
+          <p>Intenta mantener horarios de sueño regulares y date tiempo para recuperar energía.</p>
+        </article>
+
+        <article class="tarjeta azul">
+          <div class="icono">🗣️</div>
+          <h3>Habla de lo que sientes</h3>
+          <p>Compartir tus emociones con alguien de confianza puede ayudarte a sentirte acompañado.</p>
+        </article>
+
+        <article class="tarjeta rosa">
+          <div class="icono">📵</div>
+          <h3>Desconéctate un rato</h3>
+          <p>Haz pausas de las redes sociales y dedica tiempo a actividades fuera de la pantalla.</p>
+        </article>
+
+        <article class="tarjeta amarillo">
+          <div class="icono">🏃</div>
+          <h3>Mueve tu cuerpo</h3>
+          <p>Camina, baila, juega o practica alguna actividad física que disfrutes.</p>
+        </article>
+
+        <article class="tarjeta morado">
+          <div class="icono">🎨</div>
+          <h3>Haz lo que te gusta</h3>
+          <p>Escucha música, dibuja, lee o encuentra un pasatiempo que te haga disfrutar.</p>
+        </article>
+
+        <article class="tarjeta turquesa">
+          <div class="icono">🫂</div>
+          <h3>Conecta con otros</h3>
+          <p>Comparte momentos con tus amigos, familiares o personas que te hagan sentir seguro.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="frase">
+      <span>💚</span>
+      <h2>No tienes que estar bien todo el tiempo.</h2>
+      <p>Sentir emociones diferentes es parte de ser humano. Mereces respeto, paciencia y apoyo.</p>
+    </section>
+
+    <section class="seccion actividades" id="actividades">
+      <h2>🧘 Tu momento de tranquilidad</h2>
+      <p class="subtitulo">Haz una pausa y dedica un momento a ti.</p>
+
+      <div class="actividad">
+        <div class="actividad-icono">🌬️</div>
+        <h3>Respira con calma</h3>
+        <p>Busca una posición cómoda, respira suavemente y presta atención a cómo entra y sale el aire. No necesitas hacerlo perfecto.</p>
+        <button class="boton" id="respirarBtn">Comenzar ejercicio</button>
+        <div id="respiracion" class="respiracion" hidden aria-live="polite">
+          <div class="circulo" id="circulo">🌿</div>
+          <p id="instruccion">Prepárate para comenzar</p>
+          <p id="contador"></p>
+          <button class="boton boton-secundario" id="detenerBtn">Terminar</button>
+        </div>
+      </div>
+
+      <div class="actividad diario">
+        <div class="actividad-icono">📔</div>
+        <h3>Mi diario emocional</h3>
+        <p>¿Cómo te sientes hoy? Escribe lo que quieras expresar. Tus notas se quedarán en esta página mientras esté abierta.</p>
+        <textarea id="diario" rows="4" placeholder="Hoy me siento..."></textarea>
+        <button class="boton" id="guardarBtn">Guardar mi reflexión</button>
+        <p id="mensajeDiario" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="ayuda" id="ayuda">
+      <div class="ayuda-contenido">
+        <span class="etiqueta">🤝 NO ESTÁS SOLO</span>
+        <h2>Pedir ayuda también es cuidarte.</h2>
+        <p>Si la tristeza, la ansiedad u otras emociones te afectan durante mucho tiempo, habla con una persona adulta de confianza o con un profesional de salud mental.</p>
+        <p>Si estás en Colombia y necesitas apoyo inmediato, puedes acudir a los servicios de salud o llamar al 123 ante una emergencia. La Línea 106 está disponible en algunas ciudades; verifica el servicio de tu municipio.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#inicio" class="logo">🌿 DIETÓ</a>
+    <p>Tu mente también merece cuidado.</p>
+    <p class="creador">🎓 Sitio creado por <strong>Duvan Felipe Riascos Manyoma</strong></p>
+    <p class="copyright">© 2026 DIETÓ · Proyecto educativo de bienestar emocional.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
